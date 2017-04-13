@@ -1,0 +1,31 @@
+{
+  "name": "@mcmath/coffeelint-config",
+  "version": "0.0.0",
+  "description": "CoffeeLint configuration for CoffeeScript projects",
+  "main": "index.json",
+  "keywords": [
+    "coffeescript",
+    "coffeelint",
+    "linter",
+    "config"
+  ],
+  "scripts": {
+    "test": "jsonlint index.json -q"
+  },
+  "author": "Akim McMath <akim.elijah.mcmath@gmail.com>",
+  "license": "UNLICENSED",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mcmath/coffeelint-config.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mcmath/coffeelint-config/issues"
+  },
+  "homepage": "https://github.com/mcmath/coffeelint-config#readme",
+  "peerDependencies": {
+    "coffeelint": "1"
+  },
+  "devDependencies": {
+    "jsonlint": "^1.6.2"
+  }
+}

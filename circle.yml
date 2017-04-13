@@ -1,0 +1,14 @@
+machine:
+  node:
+    version: "6.1.0"
+deployment:
+  npm-release:
+    tag: /^v[0-9]+\.[0-9]+\.[0-9]+$|^v1\.0\.0-[A-Za-z]+\.[0-9]+$/
+    owner: mcmath
+    commands:
+      - npm publish
+  npm-prerelease:
+    tag: /^v([2-9]|[1-9][0-9]+)\.0\.0-[A-Za-z]+\.[0-9]+$/
+    owner: mcmath
+    commands:
+      - npm publish --tag next
