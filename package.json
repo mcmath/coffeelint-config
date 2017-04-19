@@ -1,6 +1,6 @@
 {
   "name": "@mcmath/coffeelint-config",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "CoffeeLint config for CoffeeScript projects",
   "main": "index.json",
   "keywords": [
