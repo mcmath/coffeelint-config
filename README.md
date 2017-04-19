@@ -1,6 +1,9 @@
 # @mcmath/coffeelint-config
 
-[CoffeeLint][coffeelint] configuration for [CoffeeScript][coffeescript]
+[![Version][version-badge]][npm]
+[![Build][build-badge]][travis]
+
+[CoffeeLint][coffeelint] config for [CoffeeScript][coffeescript]
 projects
 
 ## Install
@@ -37,6 +40,9 @@ Rules may be added or modified like so:
 }
 ```
 
+[version-badge]: https://img.shields.io/npm/v/@mcmath/coffeelint-config.svg?style=flat-square
+[build-badge]: https://img.shields.io/travis/mcmath/coffeelint-config/master.svg?style=flat-square
 [npm]: https://www.npmjs.com/package/@mcmath/coffeelint-config
+[travis]: https://travis-ci.org/mcmath/coffeelint-config
 [coffeescript]: http://coffeescript.org/
 [coffeelint]: http://www.coffeelint.org/

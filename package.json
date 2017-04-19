@@ -1,19 +1,25 @@
 {
   "name": "@mcmath/coffeelint-config",
   "version": "1.0.0",
-  "description": "CoffeeLint configuration for CoffeeScript projects",
+  "description": "CoffeeLint config for CoffeeScript projects",
   "main": "index.json",
   "keywords": [
-    "coffeescript",
     "coffeelint",
     "linter",
-    "config"
+    "config",
+    "coffeescript"
   ],
   "scripts": {
     "test": "jsonlint index.json -q"
   },
+  "engines": {
+    "node": ">=4.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
   "author": "Akim McMath <akim.elijah.mcmath@gmail.com>",
-  "license": "UNLICENSED",
+  "license": "MIT",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/mcmath/coffeelint-config.git"
